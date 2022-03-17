@@ -5,7 +5,9 @@ module.exports = {
     node: true,
   },
   extends: [
+    // eslint-config-standard
     'standard',
+    // eslint-plugin-import
     'plugin:import/recommended',
     'plugin:eslint-comments/recommended',
     'plugin:jsonc/recommended-with-jsonc',
@@ -30,6 +32,7 @@ module.exports = {
     '!.vscode',
   ],
   plugins: [
+    // eslint-plugin-html
     'html',
     'unicorn',
   ],
@@ -153,6 +156,7 @@ module.exports = {
     'import/no-absolute-path': 'off',
 
     // Common
+    // If a rule has additional options, specify them using array literals
     'semi': ['error', 'never'],
     'curly': ['error', 'multi-or-nest', 'consistent'],
     'quotes': ['error', 'single'],
