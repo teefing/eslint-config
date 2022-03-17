@@ -1,6 +1,6 @@
 {
   "name": "@teefing/eslint-config",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "",
   "keywords": [],
   "license": "MIT",
@@ -13,8 +13,8 @@
     "eslint": ">=7.4.0"
   },
   "dependencies": {
-    "@teefing/eslint-config-react": "^0.0.3",
-    "@teefing/eslint-config-vue": "^0.0.3",
+    "@teefing/eslint-config-react": "^0.0.4",
+    "@teefing/eslint-config-vue": "^0.0.4",
     "@typescript-eslint/eslint-plugin": "^5.13.0",
     "@typescript-eslint/parser": "^5.13.0",
     "eslint-config-standard": "17.0.0-1",
